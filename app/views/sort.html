@@ -1,0 +1,10 @@
+<p>This is the sort view.</p>
+<div class="row" id="board">
+	<ul as-sortable="sortOptions" ng-model="data">
+		<li data-ng-repeat="item in data" data-as-sortable-item>
+		<div as-sortable-item-handle>
+			<span>{{item}}</a>
+		</div>
+		</li>
+	</ul>
+</div>
