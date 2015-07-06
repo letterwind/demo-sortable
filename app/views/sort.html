@@ -1,9 +1,9 @@
 <p>This is the sort view.</p>
 <div class="row" id="board">
 	<ul as-sortable="sortOptions" ng-model="data">
-		<li data-ng-repeat="item in data" data-as-sortable-item>
+		<li data-ng-repeat="item in data" data-as-sortable-item class="alert alert-info">
 		<div as-sortable-item-handle>
-			<span>{{item}}</a>
+			<span class="label label-primary">{{item}}</a>
 		</div>
 		</li>
 	</ul>
